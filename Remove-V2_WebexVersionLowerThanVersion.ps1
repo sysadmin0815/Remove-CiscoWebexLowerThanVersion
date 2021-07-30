@@ -14,7 +14,6 @@ $testModeEnabled = $true
 
 #definde Cisco Webex Versions to keep on the system. All versions lower will be removed.
 #Change the value to the WebEx version you want to keep.
-#!!You can find the latest versions in SCCM console!!
 # Webex Productivity Tools:
 $WebexProdToKeepName = "Cisco Webex Productivity Tools"                     #do not modify unless the Product name changed. Used for logfile
 $webexProdToKeepVer = "40"                                                  #change to the min. version you want to keep
