@@ -152,7 +152,7 @@ $webexMeetVer = Get-ChildItem -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVers
         $webexMeetNameLog = $webexMeetVer | Select-Object Displayname -ExpandProperty Displayname
         $webexMeetToRemoveLog = $webexMeetNameLog + " " + $webexMeetVerLog
         $webexMeetToKeepLog = $WebexMeetToKeepName + " " + $webexMeetToKeepVer + " and above."
-#Get unsupported versions of Webex Productivity Tools except the version definded
+#Get unsupported versions of Webex Meetings App except the version definded
 if (($webExMeet -eq $true) -and ((($webexMeetVer | Select-Object DisplayVersion -ExpandProperty DisplayVersion) -lt $webexMeetToKeepVer))) {
     Write-Host
     Write-Host "==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ====" -ForegroundColor Cyan
