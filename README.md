@@ -1,3 +1,5 @@
+[![PSScriptAnalyzer](https://github.com/sysadmin0815/Remove-CiscoWebexLowerThanVersion/actions/workflows/powershell-analysis.yml/badge.svg)](https://github.com/sysadmin0815/Remove-CiscoWebexLowerThanVersion/actions/workflows/powershell-analysis.yml)
+
 # Remove-CiscoWebexLowerThanVersion.ps1
 <b>Powershell Script:</b> <br>
 --- Remove Cisco Webex Productivity Tools and Cisco Webex Meetings App Versions LOWER than the definded one.<br>
